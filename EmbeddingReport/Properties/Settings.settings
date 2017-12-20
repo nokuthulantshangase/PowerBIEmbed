@@ -1,0 +1,30 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="EmbeddingReport.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="PowerBiAPI" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://analysis.windows.net/powerbi/api</Value>
+    </Setting>
+    <Setting Name="AADAuthorityUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://login.windows.net/common/oauth2/authorize/</Value>
+    </Setting>
+    <Setting Name="PowerBiDataset" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://api.powerbi.com/v1.0/myorg/</Value>
+    </Setting>
+    <Setting Name="RedirectUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://localhost:53909/</Value>
+    </Setting>
+    <Setting Name="ClientID" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">1ec338b7-048f-4c63-976b-d28cc3e27545</Value>
+    </Setting>
+    <Setting Name="ClientSecret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">JT8MgONokMds61K6BnEvGkW0U5wG/PqEUs/sWZIzrko=</Value>
+    </Setting>
+    <Setting Name="AADAuthoritySignInUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://login.windows.net/common/oauth2/authorize/</Value>
+    </Setting>
+    <Setting Name="AADAuthoritySignOffUri" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://login.windows.net/common/oauth2/logout/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
