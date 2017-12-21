@@ -116,19 +116,19 @@
             <div class="navbar-collapse collapse" id="navbar">
                 <ul class="nav nav-tabs nav-justified" style="align-items:center">
                    <li><a  href="http://localhost:53898/">
-                       <span class="glyphicon glyphicon-home"></span>                    
-                           <span class="hidden-xs">Home</span>
+                       <span class="glyphicon glyphicon-home">Home</span>                    
+                      <%--     <span class="hidden-xs">Home</span>--%>
                        </a>
                    </li>
                     <li> <a href="http://localhost:54337/Default.aspx">
-                          <span class="glyphicon glyphicon-dashboard"></span>  
-                         <span class="hidden-xs">Embed DashBoards</span>
+                          <span class="glyphicon glyphicon-dashboard">Embed DashBoards</span>  
+                         <%--<span class="hidden-xs">Embed DashBoards</span>--%>
                          </a>
                     </li>
                       <li class="active" style="background-color:cadetblue"> 
                           <a href="Default.aspx">
-                           <span class="glyphicon glyphicon-stats"></span>  
-                         <span class="hidden-xs">Embed Reports</span>
+                           <span class="glyphicon glyphicon-stats">Embed Reports</span>  
+                         <%--<span class="hidden-xs">Embed Reports</span>--%>
                        </a></li>
                 </ul>        
             </div>                

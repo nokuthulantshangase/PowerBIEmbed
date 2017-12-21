@@ -2,7 +2,7 @@
 
 <asp:Content ID="BodyContent" style="background-color:dodgerblue" ContentPlaceHolderID="MainContent" runat="server">
    
-<div class="jumbotron" style="align-content:center;border-style:solid; text-align:center;background-color:darkgray;">
+<div class="jumbotron" style="align-content:center;border-style:solid;padding-top:25px; text-align:center;background-color:darkgray;">
     <h2>
     Power BI Embedded DashBoard</h2>
      <div class="row" style="align-content:center;border-style:solid; text-align:center;">

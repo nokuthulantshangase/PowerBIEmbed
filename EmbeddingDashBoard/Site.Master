@@ -87,8 +87,8 @@
      <div class="navbar navbar-inverse navbar-fixed-top">  
           <img src="http://localhost:53898/Content/logo-Gen.png" />        
     </div>
-    <div class="container body-content" style="padding-top:20px;padding-bottom:20px;">
-        <div class="tab-pane nav-divider show" style="background-color:antiquewhite">
+    <div class="container body-content">
+        <div class="tab-pane nav-divider show" style="background-color:antiquewhite; padding-top:20px;margin-bottom:auto">
               <div class="container">          
             <div class="navbar-header">
                 <button type="button" style="background-color:blue"  class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbar">
@@ -100,21 +100,22 @@
                  </div>  
           <div class="navbar-collapse collapse" id="navbar">
                <ul class="nav nav-tabs nav-justified" style="align-items:center">
-                   <li><a  href="http://localhost:53898/">
-                       <span class="glyphicon glyphicon-home"></span>                    
-                           <span class="hidden-xs">Home</span>
+                   <li>
+                       <a  href="http://localhost:53898/">
+                       <span class="glyphicon glyphicon-home">Home</span>                    
+                        <%--   <span class="hidden-xs">Home</span>--%>
                        </a>
                    </li>
                     <li class="active" style="background-color:cadetblue"> 
                         <a href="Default.aspx">
-                          <span class="glyphicon glyphicon-dashboard"></span>  
-                         <span class="hidden-xs">Embed DashBoards</span>
+                          <span class="glyphicon glyphicon-dashboard">Embed DashBoards</span>  
+                    <%--     <span class="hidden-xs">Embed DashBoards</span>--%>
                          </a>
                     </li>
                       <li class="active"> 
                           <a href="http://localhost:53909/Default.aspx">
-                           <span class="glyphicon glyphicon-stats"></span>  
-                         <span class="hidden-xs">Embed Reports</span>
+                           <span class="glyphicon glyphicon-stats">Embed Reports</span>  
+                   <%--      <span class="hidden-xs">Embed Reports</span>--%>
                        </a></li>
                 </ul>               
             </div>                
